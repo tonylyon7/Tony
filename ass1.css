@@ -67,10 +67,33 @@ h2{
     margin-bottom: 20px;
     margin-left: 260px;
 }
+.start{
+    border: 2px solid yellow !important;
+   border-radius: 20px;
+   padding: 5px 5px;
+   text-decoration: none;
+   color: #fff !important;
+}
 @media(max-width: 576px){
-    nav .bigboy{
-        font-size: 20px !important;
+    nav .navbar-brand{
+        font-size: 40px !important;
         color: gold !important;
+    }
+    h2{
+        font-size: 40px !important;
+        line-height: 60px !important;
+
+    }
+}
+@media(max-width: 300px){
+    nav .navbar-brand{
+        font-size: 30px !important;
+        color: brown !important;
+    }
+    h2{
+        font-size: 30px !important;
+        line-height: 50px !important;
+
     }
 }
 /* for bigboy padding  top-right-bottom-left*/
