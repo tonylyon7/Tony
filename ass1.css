@@ -96,4 +96,16 @@ h2{
 
     }
 }
+@media(min-width: 992px){
+    nav .navbar-brand{
+        font-size: 30px !important;
+        color: violet !important;
+    }
+    nav ul>li{
+        margin-right: 10px;
+        font-size: 14px;
+        color: yellow !important;
+
+    }
+}
 /* for bigboy padding  top-right-bottom-left*/
